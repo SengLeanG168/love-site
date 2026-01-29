@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Love ❤️</title>
+
+  <!-- Khmer + nice fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Kantumruy+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background decoration -->
+  <div class="bg">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+    <div class="grain"></div>
+  </div>
+
+  <!-- PAGE 1 -->
+  <div class="container card" id="page1">
+
+
+    <h1 class="title" id="typeText1"></h1>
+    <h2 class="sub" id="typeText2"></h2>
+    <p class="names glow" id="partnerOnly">ល័ក្ខ ចលនា</p>
+
+    <div class="buttons">
+      <button class="btn primary" id="yes1">
+        <span>ព្រម ❤️</span><i class="shine"></i>
+      </button>
+      <button class="btn dark runaway" id="no1">
+        <span>មិនព្រម 😅</span>
+      </button>
+    </div>
+
+  </div>
+
+  <!-- PAGE 2 -->
+  <div class="container card hidden" id="page2">
+
+
+    <h1 class="title" id="typeText3"></h1>
+    <p class="names glow" id="names2"></p>
+
+    <div class="buttons">
+      <button class="btn primary" id="yes2">
+        <span>ព្រម 💍</span><i class="shine"></i>
+      </button>
+      <button class="btn dark runaway" id="no2">
+        <span>មិនព្រម 😆</span>
+      </button>
+    </div>
+
+    <!-- MUSIC (play on page2 yes) -->
+    <audio id="bgMusic" loop>
+      <source src="music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <div id="couple" class="hidden couple">
+      <img src="couple.png" alt="Couple" />
+    </div>
+  </div>
+
+  <!-- SURPRISE MODAL -->
+  <div class="modal hidden" id="modal" aria-hidden="true">
+    <div class="modal-card">
+      <h2 class="modal-title">🎉 Surprise! 🎉</h2>
+      <p class="modal-text" id="surpriseText"></p>
+      <button class="btn primary" id="closeModal">
+        <span>យល់ព្រមណា… ❤️</span><i class="shine"></i>
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
