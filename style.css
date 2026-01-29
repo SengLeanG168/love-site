@@ -18,7 +18,7 @@ body{
   padding:18px;
   overflow:hidden;
 
-  font-family:"Khmer OS Siemreap", system-ui, sans-serif;
+  font-family:"Battambang", system-ui, sans-serif;
 
   background: radial-gradient(1200px 700px at 10% 10%, rgba(255,255,255,.18), transparent 55%),
               radial-gradient(900px 600px at 90% 20%, rgba(255,255,255,.14), transparent 50%),
@@ -97,7 +97,7 @@ body{
 
 .title{
   color:#fff;
-  font-family:"Khmer OS Muol Light", sans-serif;
+  font-family:"Moul", sans-serif;
   font-size: clamp(1.9rem, 5.2vw, 2.8rem);
   line-height: 1.5;
   text-shadow: 0 12px 30px rgba(0,0,0,.18);
@@ -115,7 +115,7 @@ body{
   font-weight:700;
   letter-spacing:.8px;
   font-size: clamp(1.05rem, 4.2vw, 1.65rem);
-  font-family:"Khmer OS Muol Light";
+  font-family:"Moul";
 }
 
 /* Glow */
